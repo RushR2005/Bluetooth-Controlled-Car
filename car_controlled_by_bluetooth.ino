@@ -6,10 +6,10 @@ String BT_input;                          // to store input character received v
 int LED = 13;                              // device to control
 
 // Define Motor Pin
-const int Motor_L_F = 2;
-const int Motor_L_B = 3;
-const int Motor_R_F = 4;
-const int Motor_R_B = 5;
+const int Motor_L_F = 2;    //Left Forward wheel
+const int Motor_L_B = 3;    //Left Backward wheel
+const int Motor_R_F = 4;    //Right Forward wheel
+const int Motor_R_B = 5;    //Right Backward wheel
 
 void setup()  
 {  
